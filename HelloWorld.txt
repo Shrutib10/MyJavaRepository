@@ -1,12 +1,13 @@
 class HelloWorld{
 	
 	myMethod(){
-		System.out.println("Hello World...!!!");
+		System.out.println("Hello World...welcome!!!");
 	}
 
 
 	public static void main(String args[]){
 	
-		myMethod();
+		HelloWorld obj=new HelloWorld();
+		obj.myMethod();
 	}
 }
